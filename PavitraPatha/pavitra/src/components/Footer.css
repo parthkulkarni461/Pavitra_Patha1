@@ -1,0 +1,154 @@
+/* Base Styles */
+.footer {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fee0b4;
+  color: #333;
+  padding: 40px 0 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+
+/* Headings */
+.footer-heading {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Text */
+.footer-text {
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Lists */
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list-item {
+  margin-bottom: 12px;
+  color: #666;
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.4;
+}
+
+.footer-icon {
+  margin-right: 10px;
+  color: #666;
+  min-width: 16px;
+  margin-top: 3px;
+}
+
+/* Links */
+.footer-link {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #333;
+}
+
+/* Subscribe Section */
+.subscribe-container {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.subscribe-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.subscribe-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+.subscribe-form {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.subscribe-input {
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-right: none;
+  font-size: 14px;
+}
+
+.subscribe-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+  background-color: #555;
+}
+
+/* Copyright */
+.copyright {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 12px;
+}
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #555;
+  transform: translateY(-2px);
+}
